@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MazeGenerationCpp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/MazeGenerationCpp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Cell.h" />
+		<Unit filename="include/Ellers_Algorithm.h" />
+		<Unit filename="include/Map_Splitting.h" />
+		<Unit filename="include/Maze_Generate.h" />
+		<Unit filename="include/Room.h" />
+		<Unit filename="include/Room_Generate.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Cell.cpp" />
+		<Unit filename="src/Ellers_Algorithm.cpp" />
+		<Unit filename="src/Map_Splitting.cpp" />
+		<Unit filename="src/Maze_Generate.cpp" />
+		<Unit filename="src/Room.cpp" />
+		<Unit filename="src/Room_Generate.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
